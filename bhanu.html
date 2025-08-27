@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Show Current Time</title>
+</head>
+<body>
+  <h1>The current time is:</h1>
+  <p id="clock"></p>
+
+  <script>
+    function updateClock() {
+      let now = new Date();
+      let timeString = now.toLocaleTimeString(); // hh:mm:ss AM/PM
+      document.getElementById("clock").textContent = timeString;
+    }
+
+    // Update immediately and then every second
+    updateClock();
+    setInterval(updateClock, 1000);
+  </script>
+</body>
+</html>
+
+
+
+
