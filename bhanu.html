@@ -2,24 +2,41 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Show Current Time</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
 </head>
 <body>
-  <h1>The current time is:</h1>
-  <p id="clock"></p>
+  <h1>hello </h1>
+  <p>how are you </p>
+  <label for="name">Name</label>
+  <input type ="text" id="Name"><br>
 
-  <script>
-    function updateClock() {
-      let now = new Date();
-      let timeString = now.toLocaleTimeString(); // hh:mm:ss AM/PM
-      document.getElementById("clock").textContent = timeString;
-    }
+  <img src = "stem photo (1).jpeg" alt = "my stem" width="100"><br>
 
-    // Update immediately and then every second
-    updateClock();
-    setInterval(updateClock, 1000);
-  </script>
-</body>
+
+  <label for="country">country</label>
+  <select id ="country">
+    <option>ytwwfhrbcw</option>
+    <option>bxhj  ebcihb</option>
+<option>hjbdlhjeb</option>
+  </select>
+
+
+  function Hero() {
+  return (
+    <section className="h-screen flex flex-col justify-center items-center bg-gradient-to-r from-purple-500 to-pink-500 text-white">
+      <h1 className="text-5xl md:text-7xl font-bold mb-4">Hi, I’m Alex</h1>
+      <p className="text-xl md:text-2xl mb-6">Front-End Developer | React Enthusiast</p>
+      <a href="#projects" className="px-6 py-3 bg-white text-purple-500 font-bold rounded-lg hover:bg-purple-200 transition">
+        View My Work
+      </a>
+    </section>
+  );
+}
+
+
+
+</body> 
 </html>
 
 

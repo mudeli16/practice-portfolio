@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.box {
+  border: 2px solid blue;
+  padding: 10px;
+  margin: 5px;
+}
+
+.block {
+  display: block;
+}
+
+.inline {
+  display: inline;
+}
+
+.inline-block {
+  display: inline-block;
+  width: 100px;
+  height: 40px;
+}
+
+</style>
+</head>
+<body>
+
+<h2>Display Types</h2>
+
+<div class="box block">Block 1</div>
+<div class="box block">Block 2</div>
+
+<p>
+  <span class="box inline">Inline 1</span>
+  <span class="box inline">Inline 2</span>
+</p>
+
+<p>
+  <span class="box inline-block">Inline-Block 1</span>
+  <span class="box inline-block">Inline-Block 2</span>
+</p>
+
+<div style="border:1px solid red; display:block;">Box 1</div>
+<div style="border:1px solid red; display:block;">Box 2</div>
+
+<div style="border:1px solid red; display:inline;">Box 1</div>
+<div style="border:1px solid red; display:inline;">Box 2</div>
+<span style="border:1px solid blue; display:inline;">Box 1</span>
+<span style="border:1px solid blue; display:inline;">Box 2</span><br>
+<span style="border:1px solid green; display:inline-block; width:100px; height:50px;">
+  Box 1
+</span>
+<span style="border:1px solid green; display:inline-block; width:100px; height:50px;">
+  Box 2
+</span>
+
+<span style=" border:2px solid blueviolet; display:inline-block; width:100px ; height:100px;">trial</span>
+
+
+<div style="display:flex; border:2px solid black; padding:10px;">
+  <div style="border:2px solid red; padding:20px;margin:40px;">Box 1</div>
+  <div style="border:2px solid blue; padding:20px;">Box 2</div>
+  <div style="border:2px solid rgb(128, 87, 0); padding:20px;">Box 3</div>
+</div>
+
+
+
+
+<div style="display:flex; justify-content:space-between; border:2px solid rgb(0, 0, 0); padding:10px;">
+  <div style="border:2px solid red; padding:20px;">Box 1</div>
+  <div style="border:2px solid blue; padding:20px;">Box 2</div>
+  <div style="border:2px solid green; padding:20px;">Box 3</div>
+</div>
+
+<div style="display:grid; grid-template-columns: 200px 200px; gap:10px; border:2px solid black; padding:10px;">
+  <div style="border:2px solid red; padding:20px;">Box 1</div>
+  <div style="border:2px solid blue; padding:20px;">Box 2</div>
+  <div style="border:2px solid green; padding:20px;">Box 3</div>
+   
+  
+</div>
+
+</body>
+</html>
